@@ -1,0 +1,708 @@
+.admission-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.452)), url("/img/new/students-bckg.jpg");
+  background-size: cover;
+}
+.admission-header-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px 0;
+  height: 100%;
+  height: 400px;
+}
+
+.admission-documents-inner-dots {
+  padding: 20px 0;
+  display: flex;
+  gap: 12px;
+}
+
+.admission-dots-prev {
+  display: block;
+  border-radius: 50%;
+  border: 2px solid rgba(19, 32, 67, 0.2470588235);
+  padding: 17px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.admission-dots-next {
+  display: block;
+  border-radius: 50%;
+  border: 2px solid rgba(19, 32, 67, 0.2470588235);
+  padding: 17px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.admission-dots-next img {
+  transform: rotate(180deg);
+}
+
+.admission-dots-prev:hover, .admission-dots-next:hover {
+  border: 3px solid #8f7950;
+}
+
+.header-inner-title {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 83px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+.header-inner-link ul {
+  display: flex;
+}
+.header-inner-link li {
+  margin-right: 5px;
+}
+.header-inner-link a {
+  transition: 0.5s;
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+  text-align: justify;
+  color: #ffffff;
+}
+
+.header-inner-link a:hover {
+  color: #c0a169;
+}
+
+.admission-about-inner {
+  padding: 84px 0;
+  display: flex;
+}
+.admission-about-inner-text {
+  flex-basis: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-right: 80px;
+}
+.admission-about-inner-text h2 {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 55px;
+  /* 2 */
+  color: #132043;
+  padding-bottom: 24px;
+}
+.admission-about-inner-text p {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  /* or 27px */
+  /* 2 */
+  color: #132043;
+}
+.admission-about-inner-img img {
+  border-radius: 12px;
+  width: 640px;
+  min-height: 350px;
+}
+
+.admission-source {
+  background-color: #f7f9ff;
+  padding: 84px 0;
+}
+.admission-source-inner {
+  padding-bottom: 40px;
+}
+.admission-source-inner-title {
+  text-align: center;
+}
+.admission-source-inner-title h1 {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 55px;
+  /* 2 */
+  color: #132043;
+  padding-bottom: 48px;
+}
+.admission-source-inner-item {
+  margin-bottom: 30px;
+  background-color: #fff;
+  padding: 48px;
+  border-radius: 12px;
+}
+
+.questions__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.questions__left {
+  flex-basis: 48%;
+}
+.questions__left img {
+  border-radius: 12px;
+  min-height: 200px;
+  max-height: 350px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.questions__right {
+  flex-basis: 48%;
+}
+
+.questions__list {
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  overflow-y: auto;
+}
+
+.questions-title h1 {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 150%;
+  /* identical to box height, or 51px */
+  /* 2 */
+  color: #132043;
+}
+
+.questions__list_item {
+  border: none;
+}
+
+.admission-strategy-inner {
+  padding: 80px 0;
+}
+.admission-strategy-title h1 {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 55px;
+  text-align: center;
+  /* 2 */
+  color: #132043;
+  padding-bottom: 60px;
+}
+
+#customers {
+  width: 100%;
+}
+#customers th {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  text-align: center;
+  /* 2 */
+  color: #132043;
+  padding-bottom: 20px;
+}
+#customers strong {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+  text-align: center;
+  /* 2 */
+  color: #132043;
+  display: inline-block;
+  margin: 15px 0;
+}
+#customers td {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  /* 2 */
+  color: #132043;
+  padding: 25px;
+}
+#customers tr:nth-child(even) {
+  background: #f7f9ff;
+}
+
+.admission-inner-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+.admission-inner-item-img {
+  flex-basis: 48%;
+}
+.admission-inner-item-img img {
+  width: 100%;
+  max-height: 750px;
+}
+.admission-inner-item-text {
+  height: 100%;
+  flex-basis: 48%;
+  padding-right: 5% 2% 50px 50px;
+  width: 50%;
+}
+.admission-inner-item-text h3 {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  /* 2 */
+  color: #132043;
+  padding-bottom: 22px;
+}
+.admission-inner-item-text li {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  /* or 27px */
+  line-height: 150%;
+  /* 2 */
+  color: #132043;
+  padding-bottom: 15px;
+}
+.admission-inner-item-text-info {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+  /* 2 */
+  color: #132043;
+}
+.admission-inner-item-text-price span {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  /* identical to box height */
+  text-align: justify;
+  /* 2 */
+  display: inline-block;
+  color: #132043;
+  padding-bottom: 13px;
+}
+.admission-inner-item-text-price p {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  /* identical to box height */
+  text-align: justify;
+  /* 2 */
+  color: #132043;
+}
+.admission-inner-item-text-list p {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  /* or 27px */
+  line-height: 120%;
+  /* 2 */
+  color: #132043;
+  padding-bottom: 30px;
+}
+.admission-inner-item-text-list span {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  /* identical to box height, or 27px */
+  text-align: justify;
+  /* 2 */
+  color: #132043;
+}
+.admission-inner-item-text-button {
+  margin-top: 20px;
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #ffffff;
+  background: #988155;
+  border-radius: 12px;
+  padding: 19px;
+}
+.admission-inner-item-text-button img {
+  margin-left: 5px;
+}
+
+.admission-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.admission-inner-item:nth-child(2) {
+  flex-direction: row-reverse;
+  padding-left: 5%;
+}
+
+.admission-inner-item-img_img1 {
+  border-radius: 0 12px 12px 0;
+}
+
+.admission-inner-item-img_img {
+  border-radius: 12px 0 0 12px;
+}
+
+.admission-document {
+  padding: 40px 0;
+}
+
+.admission-documents-inner-title h4 {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 55px;
+  /* 2 */
+  color: #132043;
+  padding-bottom: 30px;
+}
+.admission-documents-inner-list-item {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+.admission-documents-inner-list-item-prev {
+  display: flex;
+  align-items: center;
+}
+.admission-documents-inner-list-item-prev img {
+  margin-right: 12px;
+  width: 56px;
+  height: 56px;
+}
+.admission-documents-inner-list-item-prev p {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+  /* 2 */
+  color: #132043;
+}
+.admission-documents-inner-list-item-down {
+  margin-left: 20px;
+}
+.admission-documents-inner-list-item-down img {
+  width: 56px;
+  height: 56px;
+}
+
+.content-documents-inner-title h4 {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 150%;
+  color: #132043;
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 30px;
+}
+.content-documents-inner-list-item {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 30px 30px;
+  border-bottom: 1px solid #dddddd;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.content-documents-inner-list-item-prev {
+  display: flex;
+  align-items: center;
+}
+.content-documents-inner-list-item-prev img {
+  width: 46px;
+  margin-right: 16px;
+}
+.content-documents-inner-list-item-prev p {
+  font-size: 20px;
+  line-height: 28px;
+}
+.content-documents-inner-list-item-down button {
+  width: 56px;
+  height: 56px;
+}
+
+.queston-left-title h2 {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 55px;
+  /* 2 */
+  color: #132043;
+  padding-bottom: 24px;
+}
+
+.queston-left-text p {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 137.99%;
+  /* or 25px */
+  /* 2 */
+  color: #132043;
+  padding-bottom: 24px;
+}
+
+.queston-left-btn {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #988155;
+  border-radius: 12px;
+  padding: 19px;
+}
+
+.queston-left-btn-sumbit {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  /* 2 */
+  color: #132043;
+  border-radius: 12px;
+  padding: 19px;
+  border: 1px solid #8f7950;
+}
+
+@media (max-width: 992px) {
+  .header-inner-title {
+    font-size: 32px;
+  }
+  .admission-documents-inner-dots {
+    display: none;
+  }
+  .admission-header {
+    height: 255px;
+  }
+  .admission-header-inner {
+    height: 100%;
+  }
+  .admission-documents-inner-title h4 {
+    font-size: 32px;
+    line-height: 37px;
+  }
+  .admission-documents-inner-list-item {
+    margin: 10px;
+  }
+  .admission-documents-inner-list-item-prev img {
+    height: 42px;
+  }
+  .admission-documents-inner-list-item-prev p {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .admission-documents-inner-list-item-down {
+    margin: 0;
+  }
+  .admission-documents-inner-list-item-down button {
+    height: 42px;
+  }
+  .admission-text-container {
+    padding: 40px 0 0 0;
+  }
+  .admission-about-inner {
+    flex-direction: column;
+    padding-bottom: 10px;
+  }
+  .admission-about-inner img {
+    min-height: 220px;
+    max-height: 400px;
+  }
+  .admission-about-inner-text {
+    padding: 0;
+  }
+  .admission-about-inner-text h2 {
+    font-size: 32px;
+    line-height: 37px;
+  }
+  .admission-about-inner-text p {
+    font-size: 18px;
+    line-height: 150%;
+    padding-bottom: 20px;
+  }
+  .content-documents-inner-title h4 {
+    font-size: 32px;
+  }
+  .admission-source {
+    padding: 30px 0;
+  }
+  .admission-source-inner {
+    padding: 0;
+  }
+  .admission-source-inner-title h1 {
+    font-size: 32px;
+    line-height: 37px;
+    padding: 20px;
+  }
+  .admission-source-inner-item {
+    padding: 20px;
+    margin: 10px 0;
+  }
+  .questions__wrapper {
+    flex-direction: column;
+  }
+  .questions__left img {
+    height: 220px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+  }
+  .questions-title h1 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .admission-strategy-title h1 {
+    font-size: 32px;
+    line-height: 37px;
+    text-align: start;
+  }
+  .admission-strategy-table {
+    overflow: scroll;
+  }
+  #customers strong {
+    text-align: start;
+  }
+  .admission-inner-item {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .admission-inner-item-text {
+    padding: 10px;
+    width: auto;
+    height: auto;
+  }
+  .admission-inner-item-text h3 {
+    padding: 20px 0;
+    font-size: 32px;
+    line-height: 37px;
+  }
+  .admission-inner-item-text li {
+    font-size: 18px;
+    line-height: 150%;
+  }
+  .admission-inner-item-text-info {
+    font-size: 18px;
+    line-height: 150%;
+    text-align: start;
+  }
+  .admission-inner-item-text-price span {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 10px;
+  }
+  .admission-inner-item-text-price p {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 700;
+  }
+  .admission-inner-item-text-button {
+    width: 100%;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+  }
+  .admission-inner-item-text-list p {
+    font-size: 18px;
+    line-height: 150%;
+  }
+  .admission-inner-item-text-list span {
+    font-size: 18px;
+    line-height: 150%;
+  }
+  .admission-inner-item-img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .admission-inner-item-img img {
+    width: 90%;
+    min-height: 220px;
+    max-height: 450px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .admission-inner-item-img_img1 {
+    width: 90%;
+    border-radius: 12px;
+  }
+  .admission-inner-item-img_img {
+    width: 90%;
+    border-radius: 12px;
+  }
+  .admission-inner-item:nth-child(2) {
+    flex-direction: column;
+    padding: 0;
+  }
+  .queston-left-title h2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .queston-left-text p {
+    font-size: 14px;
+    line-height: 137.99%;
+  }
+  .queston-left-btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .queston-left-btn-sumbit {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+  }
+  .content-documents-inner-list-item-prev {
+    align-items: flex-start;
+  }
+  .content-documents-inner-list-item-down button {
+    height: 42px;
+    width: 42px;
+  }
+}
+.slick-initialized .slick-slide {
+  display: flex;
+}
+
+.slick-dots li.slick-active button:before {
+  font-size: 15px;
+}
+
+.slick-slider .slick-track, .slick-slider .slick-list {
+  margin-bottom: 30px;
+}/*# sourceMappingURL=students.css.map */

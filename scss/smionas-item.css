@@ -1,0 +1,366 @@
+.news-about-link {
+  margin: 18px 0;
+}
+.news-about-link ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.news-about-link li {
+  margin-right: 5px;
+}
+.news-about-link a {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: justify;
+  /* 2 */
+  color: #132043;
+}
+.news-about-item-title {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  /* 2 */
+  color: #132043;
+  margin-bottom: 16px;
+}
+.news-about-item-title a {
+  display: none;
+}
+.news-about-item-date {
+  margin-bottom: 16px;
+}
+.news-about-item-date span {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: rgba(19, 32, 67, 0.5);
+}
+.news-about-item-img {
+  margin-bottom: 16px;
+}
+.news-about-item-img img {
+  width: 100%;
+  min-height: 144px;
+  max-height: 230px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 12px;
+}
+.news-about-item-text {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  /* or 21px */
+  /* 2 */
+  color: #132043;
+  margin-bottom: 24px;
+}
+.news-about-item-text-title {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 132%;
+  /* or 26px */
+  /* 2 */
+  color: #132043;
+  margin-bottom: 24px;
+}
+.news-about-item-text-weight {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 132%;
+  /* or 21px */
+  /* 2 */
+  color: #132043;
+  margin-bottom: 24px;
+}
+.news-about-item-text-list ul {
+  margin-left: 20px;
+}
+.news-about-item-text-list ol {
+  margin-left: 20px;
+}
+.news-about-item-text-list li {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  /* or 21px */
+  /* 2 */
+  color: #132043;
+  margin-bottom: 24px;
+  list-style: disc;
+}
+.news-about-item-text-inner {
+  background: #f2efea;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 24px;
+}
+.news-about-item-text-inner h4 {
+  margin: 16px 0;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  /* or 21px */
+  /* 2 */
+  color: #132043;
+}
+.news-about-other {
+  background: #f7f9ff;
+  padding: 64px 0;
+}
+.news-about-other-title {
+  margin-bottom: 16px;
+}
+.news-about-other-title h1 {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  /* identical to box height */
+  /* 2 */
+  color: #132043;
+}
+.news-about-other-title a {
+  display: none;
+  padding: 20px 36px;
+  border: 2px solid #132043;
+  border-radius: 12px;
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  /* 2 */
+  color: #132043;
+}
+.news-about-other-block {
+  height: 450px;
+}
+.news-about-other-block-item {
+  margin: 5px;
+}
+.news-about-other-block-item-img {
+  margin-bottom: 16px;
+}
+.news-about-other-block-item-img img {
+  min-height: 180px;
+  max-height: 180px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 12px;
+}
+.news-about-other-block-item-title {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 132%;
+  /* or 26px */
+  /* 2 */
+  color: #132043;
+  margin-bottom: 16px;
+}
+.news-about-other-block-item-date {
+  margin-bottom: 16px;
+}
+.news-about-other-block-item-date span {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(19, 32, 67, 0.5);
+}
+.news-about-other-block-item-text {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  /* or 21px */
+  /* 2 */
+  color: #132043;
+}
+
+.news-about-link a:hover {
+  color: #c6a058;
+}
+
+.news-about-other-block a:hover h2 {
+  color: #c6a058;
+}
+
+.news-about-item-text-list:nth-child(odd) li {
+  list-style: auto;
+}
+
+.news-about-other-title a:hover {
+  background-color: #132043;
+  color: #fff;
+}
+
+@media (min-width: 992px) {
+  .news-about-item {
+    padding-bottom: 100px;
+  }
+  .news-about-item-inner {
+    margin: 0 220px;
+  }
+  .news-about-item-title {
+    display: flex;
+    font-size: 48px;
+    line-height: 150%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 32px;
+  }
+  .news-about-item-title a {
+    width: 85px;
+    margin-top: 15px;
+    margin-right: 180px;
+    cursor: pointer;
+    display: block;
+  }
+  .news-about-item-title h1 {
+    margin-right: 202px;
+  }
+  .news-about-item-date {
+    margin-bottom: 32px;
+  }
+  .news-about-item-date span {
+    font-size: 18px;
+  }
+  .news-about-item-img {
+    margin-bottom: 48px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .news-about-item-img img {
+    width: 100%;
+    min-height: 230px;
+    max-height: 450px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 12px;
+  }
+  .news-about-item-text {
+    font-size: 18px;
+    line-height: 150%;
+  }
+  .news-about-item-text-title {
+    font-size: 32px;
+    line-height: 132%;
+    margin-bottom: 24px;
+  }
+  .news-about-item-text-weight {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 132%;
+  }
+  .news-about-item-text-list {
+    margin-bottom: 48px;
+  }
+  .news-about-item-text-list li {
+    font-size: 18px;
+    line-height: 150%;
+  }
+  .news-about-item-text-inner {
+    display: flex;
+    align-items: flex-start;
+    padding: 40px 70px;
+  }
+  .news-about-item-text-inner h4 {
+    margin-left: 40px;
+    font-size: 18px;
+  }
+  .news-about-item-text-list-istok h2 {
+    font-family: "Arimo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+    /* 2 */
+    color: #132043;
+  }
+  .news-about-item-text-list-istok h4 {
+    font-family: "Arimo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    /* 2 */
+    color: #132043;
+  }
+  .news-about-other-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .news-about-other-title a {
+    display: block;
+  }
+  .news-about-other-block {
+    padding-bottom: 100px;
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+  }
+  .news-about-other-block-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .news-about-other-block-item-img {
+    margin-bottom: 32px;
+    overflow: hidden;
+  }
+  .news-about-other-block-item-img img {
+    width: 100%;
+    min-height: 150px;
+    max-height: 220px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 12px;
+  }
+  .news-about-other-block-item-inner {
+    padding-right: 40px;
+  }
+  .news-about-other-block-item-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .news-about-other-block-item-date {
+    margin-bottom: 20px;
+  }
+  .news-about-other-block-item-date span {
+    font-size: 16px;
+  }
+  .news-about-other-block-item-text {
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=smionas-item.css.map */

@@ -1,0 +1,336 @@
+.error-about {
+  height: 255px;
+  background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.452)), url("/img/error-inner-bckg-mob.png");
+  background-size: cover;
+}
+.error-about-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 40px 0;
+}
+.error-about-inner-title {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  /* identical to box height */
+  color: #ffffff;
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  /* identical to box height */
+  color: #ffffff;
+}
+.error-about-inner-link ul {
+  display: flex;
+}
+.error-about-inner-link li {
+  margin-right: 5px;
+}
+.error-about-inner-link a {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+  text-align: justify;
+  color: #ffffff;
+}
+.error-nav {
+  display: flex;
+  padding: 32px 0;
+}
+.error-nav-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-basis: 58%;
+}
+.error-nav-inner-item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 16px;
+}
+.error-nav-inner-item-img img {
+  width: 18px;
+  height: 18px;
+}
+.error-nav-inner-item-num {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+.error-nav-inner-item-num a {
+  margin-right: 5px;
+  font-size: 14px;
+  color: #132043;
+}
+.error-nav-inner-item-num span {
+  display: block;
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* 2 */
+  color: #132043;
+}
+.error-nav-menu {
+  flex-basis: 55%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 5px;
+}
+.error-nav-menu-item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 10px;
+}
+.error-nav-menu-item-img img {
+  width: 18px;
+  height: 18px;
+}
+.error-nav-menu-item-text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+.error-nav-menu-item-text span {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* 2 */
+  color: #132043;
+}
+.error-nav-menu-item-text p {
+  padding-left: 17px;
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  padding-bottom: 10px;
+  /* 2 */
+  color: #132043;
+}
+.error-text {
+  display: flex;
+  padding: 38px 0;
+}
+.error-text-img {
+  padding-right: 20px;
+}
+.error-text-img img {
+  width: 40px;
+  height: 25px;
+}
+.error-text-text span {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* 2 */
+  color: #132043;
+}
+.error-form {
+  padding-bottom: 10px;
+}
+.error-form button {
+  width: 100%;
+  background: #988155;
+  border-radius: 12px;
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 17px;
+  padding: 20px 0;
+  color: #ffffff;
+  transition: 0.5s ease;
+}
+.error-form-block {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.error-form-block img {
+  margin-bottom: 30px;
+}
+.error-form-block h4 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  /* 2 */
+  color: #132043;
+}
+.error-form-block p {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  /* 2 */
+  color: #132043;
+}
+.error-form-input {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+.error-form-input span {
+  display: block;
+  padding: 10px 0;
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+}
+.error-form-input input {
+  width: 100%;
+  border: 1px solid #dbdbdb;
+  border-radius: 12px;
+  padding: 20px;
+}
+.error-form-input textarea {
+  width: 100%;
+  border: 1px solid #dbdbdb;
+  border-radius: 12px;
+  padding: 20px;
+}
+.error-list {
+  padding: 20px 35px;
+}
+.error-list ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.error-about-inner-link a:hover {
+  color: #c6a058;
+}
+
+.error-form button:hover {
+  background: #c6a058;
+}
+
+@media only screen and (min-width: 920px) {
+  .error-about {
+    background-repeat: no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.452)), url("/img/error-inner-bckg-decs.png");
+    background-size: cover;
+    height: 400px;
+  }
+  .error-about-inner-title h1 {
+    font-size: 72px;
+    line-height: 83px;
+  }
+  .error-nav {
+    flex-direction: column;
+    width: 90%;
+  }
+  .error-nav-inner {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-basis: content;
+  }
+  .error-nav-inner-item {
+    padding: 10px 5px;
+    width: auto;
+  }
+  .error-nav-inner-item-num {
+    flex-direction: row;
+  }
+  .error-nav-inner-item-num a {
+    margin-left: 3px;
+    font-size: 18px;
+  }
+  .error-nav-menu {
+    padding: 15px 7px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .error-nav-menu-item {
+    width: auto;
+  }
+  .error-nav-menu-item-text {
+    flex-direction: row;
+  }
+  .error-nav-menu-item-text span {
+    padding-left: 8px;
+    font-size: 18px;
+  }
+  .error-nav-menu-item-text p {
+    padding: 0;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  .error-text-title {
+    padding-bottom: 100px;
+  }
+  .error-text-title span {
+    font-size: 18px;
+  }
+  .error-form {
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .error-form-block {
+    padding-bottom: 64px;
+  }
+  .error-form-block h4 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    /* 2 */
+    color: #132043;
+  }
+  .error-form-block p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .error-form-input {
+    text-align: left;
+  }
+  .error-form-input-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .error-form-input-flex-item {
+    width: 48%;
+  }
+  .error-form-input textarea {
+    height: 105px;
+  }
+  .error-form button {
+    margin: 30px 0;
+    width: 250px;
+  }
+  .error-list ul {
+    justify-content: space-between;
+    width: 250px;
+    margin: 0 auto;
+  }
+  .error-nav-inner-item:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+  }
+}/*# sourceMappingURL=contact.css.map */

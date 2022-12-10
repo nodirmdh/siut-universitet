@@ -1,0 +1,508 @@
+@charset "UTF-8";
+.inner-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px 0;
+}
+
+.header-link a:hover {
+  color: #988155;
+}
+
+.header-link ul {
+  display: flex;
+  padding-bottom: 56px;
+}
+.header-link li {
+  margin-right: 5px;
+}
+.header-title h1 {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 55px;
+  /* 2 */
+  color: #132043;
+  padding-bottom: 56px;
+}
+.header-warning {
+  background: rgba(255, 211, 126, 0.23);
+  border-radius: 100px;
+  padding: 13px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.header-warning span {
+  display: flex;
+  align-items: center;
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #132043;
+}
+.header-warning span img {
+  margin-right: 12px;
+}
+
+.form-not-robot {
+  width: 227px;
+  order: 2;
+  margin-right: 20px;
+  height: 57px;
+  background: #f2f2f2;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+.form-not-robot input {
+  width: 20px;
+  height: 20px;
+  margin: 15px;
+}
+
+.inner-form {
+  padding-bottom: 24px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.inner-form h1 {
+  width: 100%;
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+  /* 2 */
+  color: #132043;
+  padding-bottom: 24px;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 20px 0;
+  position: relative;
+}
+.form-control-callback {
+  transition: 0.5s ease;
+  position: absolute;
+  right: -80px;
+  top: -100px;
+  opacity: 0;
+  background: #ffffff;
+  /* 1 */
+  box-shadow: 23px 12px 45px rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+  padding: 10px;
+  width: 250px;
+}
+.form-control-callback ::before {
+  content: "";
+  position: absolute;
+  left: 47%;
+  bottom: -19px; /* Положение треугольника */
+  border: 10px solid transparent; /* Прозрачные границы */
+  border-top: 10px solid #fff; /* Добавляем треугольник */
+}
+.form-control-callback p {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 131.5%;
+  /* or 21px */
+  /* 2 */
+  color: #132043;
+}
+.form-control-adress {
+  border: 1px solid #dbdbdb;
+  border-radius: 12px;
+  padding: 20px;
+  width: 770px;
+  height: 56px;
+  font-size: 14px;
+}
+.form-control-flex {
+  display: flex;
+}
+.form-control label {
+  display: flex;
+  align-items: center;
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #132043;
+  padding-bottom: 10px;
+}
+.form-control label img {
+  cursor: pointer;
+  margin-left: 7px;
+  max-width: 15px;
+}
+.form-control option {
+  font-size: 15px;
+}
+.form-control-button {
+  display: flex;
+  flex-direction: column;
+  width: 405px;
+  margin: 20px 0;
+}
+.form-control-button-footer {
+  margin-top: 12px;
+}
+.form-control-button-footer button {
+  background: #988155;
+  border: 1px solid #988155;
+  border-radius: 12px;
+  width: 227px;
+  height: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 135%;
+  text-align: center;
+  color: #ffffff;
+}
+.form-control-button label {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #132043;
+  padding-bottom: 10px;
+}
+.form-control-button button {
+  margin-right: 20px;
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+  /* 2 */
+  color: #132043;
+  padding: 20px 0;
+  border: 1px solid #988155;
+  border-radius: 12px;
+  width: 185px;
+  height: 56px;
+}
+
+.form-control label:hover ~ .form-control-callback {
+  opacity: 1;
+}
+
+.flex-button {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+
+.fix-input {
+  border: 1px solid #dbdbdb;
+  border-radius: 12px;
+  padding: 20px;
+  width: 370px;
+  height: 56px;
+  font-size: 14px;
+}
+
+.fileUpload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+    font-family: "Arimo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #132043;
+    padding: 20px 0;
+    border: 1px solid #988155;
+    border-radius: 12px;
+    width: 185px;
+    height: 56px;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+    cursor: pointer;
+    position: relative;
+  margin-bottom: 38px;
+}
+
+.fileUpload label{
+  position: absolute;
+  bottom: -30px;
+  left: 0px;
+}
+/* .fileUpload label.error{
+  position: absolute;
+  margin-bottom: -100px;
+  margin-left: -20px;
+} */
+.fileUpload img{
+  margin-left: 10px;
+  width: 20px;
+}
+
+
+.fileUpload:hover, .fileUpload:active, .fileUpload:focus {
+	background: rgb(198, 160, 88);
+    color: rgb(255, 255, 255);
+
+}
+
+
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    width: 185px;
+    height: 56px;
+  cursor: pointer;
+}
+
+input[type="file"] {
+    position: fixed;
+    right: 100%;
+    bottom: 100%;
+
+}
+
+.form-control-select {
+  border: 1px solid #dbdbdb;
+  border-radius: 12px;
+  padding: 20px;
+  width: 370px;
+  height: 56px;
+  font-size: 12px;
+}
+
+.form-control-select-end {
+  border: 1px solid #dbdbdb;
+  border-radius: 12px;
+  padding: 20px;
+  width: 770px;
+  height: 56px;
+  font-size: 14px;
+}
+
+.form-control-flex {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+.form-control-flex label {
+  margin-right: 12px;
+}
+
+.inner-footer {
+  display: flex;
+  padding: 50px 0;
+}
+.inner-footer-check {
+  flex-basis: 32%;
+  padding: 10px 30px 50px 0;
+}
+.inner-footer-text {
+  display: flex;
+  flex-basis: 72%;
+  padding: 16px;
+  background: rgba(255, 211, 126, 0.23);
+  border-radius: 12px;
+}
+.inner-footer-text-icon {
+  margin-right: 12px;
+}
+.inner-footer-text-icon img {
+  max-width: 24px;
+  height: 24px;
+}
+.inner-footer-text-item p {
+  display: inline-block;
+  padding-bottom: 12px;
+}
+.inner-footer-text-item li {
+  list-style: disc;
+  margin-bottom: 6px;
+}
+.inner-footer-text-item ul {
+  margin-left: 24px;
+}
+
+.footer-check-capcha {
+  background-color: rgba(233, 233, 233, 0.493);
+  border-radius: 12px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.form-control-check {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.form-control-check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #fff;
+  border: 1px solid #132043;
+  border-radius: 4px;
+}
+
+/* On mouse-over, add a grey background color */
+.form-control-check:hover input ~ .checkmark {
+  background-color: #fff;
+}
+
+/* When the checkbox is checked, add a blue background */
+.form-control-check input:checked ~ .checkmark {
+  background-color: #988155;
+  border: none;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.form-control-check input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.form-control-check .checkmark:after {
+  left: 7px;
+  top: 2px;
+  width: 10px;
+  height: 14px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+@media (max-width: 1400px) {
+  .form-control-adress {
+    width: 370px;
+  }
+}
+@media (max-width: 992px) {
+  .header-title h1 {
+    font-size: 32px;
+    line-height: 37px;
+    padding-bottom: 32px;
+  }
+  .inner-form h1 {
+    font-size: 20px;
+  }
+  .form-control {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .form-control-callback {
+    width: 200px;
+    right: -38px;
+    top: -131px;
+  }
+  .form-control-button-footer button {
+    width: 100%;
+  }
+  .form-control label {
+    width: 86%;
+  }
+  .form-control input {
+    width: 100%;
+    padding: 12px;
+  }
+  .form-control-select {
+    width: 100%;
+    padding: 16px;
+  }
+  .form-control-select-end {
+    width: 100%;
+  }
+  .form-control-check {
+    font-size: 14px;
+  }
+  .flex-button {
+    flex-wrap: wrap;
+  }
+  .flex-button button {
+    margin-bottom: 12px;
+  }
+  .inner-footer {
+    flex-wrap: wrap;
+  }
+  .inner-footer-check {
+    flex-basis: auto;
+    padding: 0;
+  }
+  .inner-footer-text {
+    margin-top: 32px;
+    flex-basis: auto;
+    font-size: 12px;
+  }
+  .footer-check-capcha {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+  .form-control-check {
+    padding-left: 40px;
+  }
+  .form-not-robot {
+    width: 100%;
+  }
+}/*# sourceMappingURL=request.css.map */

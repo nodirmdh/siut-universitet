@@ -1,0 +1,678 @@
+@charset "UTF-8";
+.content-about {
+  height: 255px;
+  background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.452)), url("/img/ucheb-center\ \(1\).png");
+  background-position: 50%;
+  background-size: cover;
+}
+.content-about-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 40px 0;
+}
+.content-about-inner-title {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  /* identical to box height */
+  color: #ffffff;
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  /* identical to box height */
+  color: #ffffff;
+}
+.content-about-inner-link ul {
+  display: flex;
+}
+.content-about-inner-link li {
+  margin-right: 5px;
+}
+.content-about-inner-link a {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+  text-align: justify;
+  color: #ffffff;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* <-- Apparently some margin are still there even though it's hidden */
+.content-about-inner-link a:hover {
+  color: #c6a058;
+}
+
+.content-center {
+  background: #f7f9ff;
+}
+.content-center-title {
+  padding: 0px 0 32px 0;
+}
+.content-center-title h4 {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  /* identical to box height */
+  /* 2 */
+  color: #132043;
+}
+.content-center-title p {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  /* or 21px */
+  /* 2 */
+  color: #132043;
+  padding-top: 24px;
+}
+.content-center-list-item {
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 12px;
+  margin-bottom: 8px;
+  padding: 16px;
+}
+.content-center-list-item-title {
+  margin-bottom: 20px;
+  /* 2 */
+  color: #132043;
+}
+.content-center-list-item-title h4 {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 18px;
+}
+.content-center-list-item-title span {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+  /* 2 */
+  color: #132043;
+  border: 1px solid #988155;
+  border-radius: 42px;
+  padding: 6px 12px;
+}
+.content-center-list-item-img {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  margin-bottom: 16px;
+}
+.content-center-list-item-img img {
+  border-radius: 10px;
+  width: 100%;
+  min-height: 155px;
+  max-height: 315px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.content-center-list-item-inner-predmet {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 17px;
+}
+.content-center-list-item-inner-predmet-title {
+  flex-basis: 37%;
+}
+.content-center-list-item-inner-predmet-title p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* 2 */
+  color: #132043;
+  opacity: 0.6;
+}
+.content-center-list-item-inner-predmet-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 63%;
+}
+.content-center-list-item-inner-predmet-list span {
+  border-radius: 100px;
+  padding: 4px 8px;
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+  /* 2 */
+  color: #132043;
+  margin-bottom: 6px;
+  margin-right: 3px;
+}
+.content-center-list-item-inner-info {
+  display: flex;
+  margin-bottom: 17px;
+}
+.content-center-list-item-inner-info-title {
+  flex-basis: 44%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* 2 */
+  color: #132043;
+  opacity: 0.6;
+}
+.content-center-list-item-inner-info-list {
+  flex-basis: 71%;
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 132%;
+  /* identical to box height, or 16px */
+  /* 2 */
+}
+.content-center-list-item-inner-info-list ul {
+  margin-left: 15px;
+}
+.content-center-list-item-inner-info-list li {
+  color: #132043;
+  list-style: disc;
+  margin-top: 15px;
+}
+.content-center-list-item-btn {
+  transition: 0.5s ease;
+  background: #988155;
+  border-radius: 8px;
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 107.99%;
+  /* or 15px */
+  padding: 14px;
+  text-align: center;
+}
+.content-center-list-item-btn a {
+  color: #ffffff;
+}
+.content-center-form {
+  margin-top: 50px;
+  background: #ffffff;
+  padding: 64px 24px;
+}
+.content-center-form-title {
+  margin-bottom: 32px;
+}
+.content-center-form-title h4 {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  /* 2 */
+  color: #132043;
+}
+.content-center-form-warning {
+  margin-bottom: 32px;
+}
+.content-center-form-warning img {
+  margin-right: 7px;
+}
+.content-center-form-warning span {
+  display: flex;
+  align-items: center;
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #132043;
+  background: rgba(255, 211, 126, 0.23);
+  border-radius: 100px;
+  padding: 10px 13px;
+  max-width: 450px;
+}
+.content-center-form-inner h4 {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+  /* 2 */
+  color: #132043;
+  margin-bottom: 21px;
+}
+.content-center-form-inner label {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #132043;
+}
+.content-center-form-inner input {
+  margin: 10px 0;
+  border: 1px solid #dbdbdb;
+  border-radius: 12px;
+  width: 100%;
+  padding: 16px;
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #000000;
+}
+.content-center-form-inner input::-moz-placeholder {
+  font-size: 12px;
+  width: 100%;
+}
+.content-center-form-inner input:-ms-input-placeholder {
+  font-size: 12px;
+  width: 100%;
+}
+.content-center-form-inner input::placeholder {
+  font-size: 12px;
+  width: 100%;
+}
+.content-center-form-inner select {
+  margin: 10px 0;
+  border: 1px solid #dbdbdb;
+  border-radius: 12px;
+  width: 100%;
+  padding: 12px 0;
+}
+.content-center-form-inner .form-label {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+  /* 2 */
+  color: #132043;
+}
+.content-center-form-inner .form-not-robot {
+  background: #f2f2f2;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+.content-center-form-inner .form-not-robot input {
+  width: 20px;
+  height: 20px;
+  margin: 15px;
+}
+.content-center-form-inner .form-done {
+  display: flex;
+  padding: 20px 0;
+  align-items: flex-start;
+}
+.content-center-form-inner .form-done input {
+  width: 20px;
+  height: 20px;
+  margin: 0 15px 15px 15px;
+}
+.content-center-form-inner .form-done a {
+  color: #132043;
+  -webkit-text-decoration: revert;
+          text-decoration: revert;
+}
+.content-center-form-inner button {
+  transition: 0.5s ease;
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 17px;
+  color: #ffffff;
+  background: #988155;
+  border-radius: 12px;
+  width: 100%;
+  padding: 19px 0;
+}
+
+.content-center-list-item-btn:hover {
+  background: #c6a058;
+}
+
+.content-center-form-inner-docs button:hover {
+  background: #c6a058;
+}
+
+/* Модальное содержание */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+/* Добавить анимацию */
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+/* Кнопка закрытия */
+.close {
+  color: #132043;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+}
+.modal-header h2 {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  /* identical to box height, or 48px */
+  color: #132043;
+}
+
+.modal-content {
+  padding: 31px;
+  width: 100%;
+}
+
+.modal-header h2 {
+  display: none;
+}
+
+.modal-body span {
+  display: block;
+  padding: 18px 0;
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+  color: #132043;
+}
+.modal-body p {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+  /* 2 */
+  color: #132043;
+}
+
+.content-center-list-item-img-decs {
+  display: none;
+}
+
+@media (min-width: 375px) {
+  .content-center-list-item-inner-predmet-title p {
+    font-size: 14px;
+  }
+  .content-center-list-item-title span {
+    font-size: 14px;
+  }
+  .content-center-list-item-inner-predmet-list span {
+    font-size: 14px;
+  }
+  .content-center-list-item-inner-info-title {
+    font-size: 14px;
+  }
+  .content-center-list-item-inner-info-list {
+    font-size: 14px;
+  }
+}
+@media (min-width: 992px) {
+  .content-about {
+    height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.452)), url("/img/ucheb-center\ \(1\).png");
+    background-size: cover;
+    background-position: 50% 70%;
+  }
+  .content-about-inner {
+    height: 100%;
+  }
+  .content-about-inner-title h1 {
+    font-size: 72px;
+    line-height: 83px;
+  }
+  .modal-header h2 {
+    display: block;
+  }
+  .modal-content {
+    margin-top: 60px;
+    max-width: 800px;
+  }
+  .content-center-title {
+    display: none;
+  }
+  .content-center-list {
+    display: block;
+    padding: 20px 0 0 0;
+  }
+  .content-center-list-item {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .content-center-list-item-img {
+    display: none;
+  }
+  .content-center-list-item-img-decs {
+    display: block;
+    flex-basis: 30%;
+  }
+  .content-center-list-item-img-decs img {
+    border-radius: 12px;
+    width: 389.26px;
+    height: 220px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .content-center-list-item-title {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    order: 2;
+  }
+  .content-center-list-item-title h4 {
+    font-family: "Arimo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    /* or 48px */
+    /* 2 */
+    color: #132043;
+    width: 50%;
+  }
+  .content-center-list-item-title span {
+    font-size: 16px;
+  }
+  .content-center-list-item-inner {
+    order: 3;
+  }
+  .content-center-list-item-inner-predmet {
+    display: flex;
+  }
+  .content-center-list-item-inner-predmet-title {
+    flex-basis: 26%;
+  }
+  .content-center-list-item-inner-predmet-title p {
+    font-size: 16px;
+  }
+  .content-center-list-item-inner-predmet-list {
+    flex-basis: 74%;
+    display: flex;
+  }
+  .content-center-list-item-inner-predmet-list span {
+    font-size: 16px;
+    margin-right: 5px;
+  }
+  .content-center-list-item-inner-info {
+    display: flex;
+    margin-bottom: 20px;
+    border: none;
+  }
+  .content-center-list-item-inner-info-title {
+    padding: 0;
+    flex-basis: 29%;
+  }
+  .content-center-list-item-inner-info-title p {
+    font-size: 16px;
+  }
+  .content-center-list-item-inner-info-list {
+    flex-basis: 79%;
+  }
+  .content-center-list-item-inner-info-list p {
+    font-size: 16px;
+  }
+  .content-center-list-item-btn {
+    order: 4;
+    width: 196px;
+  }
+  .content-center-list-item-img {
+    width: 389.26px;
+    height: 230px;
+  }
+  .content-center-list-item-img img {
+    border-radius: 12px;
+  }
+  .content-center-list-item-block {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 50px;
+    flex-basis: 70%;
+  }
+  .content-center-list-item-inner-info:nth-last-child(-n+1) {
+    padding-bottom: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+  }
+  .content-center-list-item-inner-info:nth-last-child(1) {
+    padding: 20px 0;
+  }
+  .content-center-list-item-inner-info:nth-last-child(1) p {
+    padding-right: 30%;
+  }
+  .content-center-form-title {
+    margin-bottom: 50px;
+  }
+  .content-center-form-title h4 {
+    font-size: 48px;
+  }
+  .content-center-form-inner h4 {
+    font-size: 24px;
+    margin-bottom: 32px;
+  }
+  .content-center-form-inner-block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .content-center-form-inner-block-item {
+    flex-basis: 31.2%;
+    margin-bottom: 20px;
+  }
+  .content-center-form-inner-block-form {
+    display: flex;
+    justify-content: space-between;
+  }
+  .content-center-form-inner-block-form-item {
+    flex-basis: 50%;
+  }
+  .content-center-form-inner-block-form-item select {
+    margin-top: 30px;
+    padding: 20px;
+  }
+  .content-center-form-inner-block-form-item .form-label {
+    font-size: 24px;
+  }
+  .content-center-form-inner-block-item:nth-child(1) {
+    margin-right: 20px;
+  }
+  .content-center-form-inner-block-item:nth-child(2) {
+    margin-right: 20px;
+  }
+  .content-center-form-inner-block-item:nth-child(4) {
+    margin-right: 20px;
+  }
+  .content-center-form-inner-block-item:nth-child(5) {
+    margin-right: 20px;
+  }
+  .content-center-form-inner-block-form-item:nth-child(1) {
+    margin-right: 20px;
+  }
+  .content-center-form-inner-docs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .content-center-form-inner .form-done {
+    order: 1;
+    padding-right: 40%;
+  }
+  .content-center-form-inner .form-not-robot {
+    width: 227px;
+    order: 2;
+    margin-right: 20px;
+    height: 57px;
+  }
+}
+
+.content-center-form-inner button {
+  order: 3;
+  width: 252px;
+  height: 57px;
+}/*# sourceMappingURL=ucheb-center.css.map */

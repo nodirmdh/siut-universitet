@@ -1,0 +1,574 @@
+.content-about {
+  background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.452)), url("/img/new/ob-univere-bckg.jpg");
+  background-size: cover;
+  background-position: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.content-about-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+  padding: 40px 0;
+}
+.content-about-inner-title {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  /* identical to box height */
+  color: #ffffff;
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  /* identical to box height */
+  color: #ffffff;
+}
+.content-about-inner-link ul {
+  display: flex;
+}
+.content-about-inner-link li {
+  margin-right: 5px;
+}
+.content-about-inner-link a {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+  text-align: justify;
+  color: #ffffff;
+  transition: 0.5s ease;
+}
+.content-about-inner-link a:hover {
+  color: #c6a058;
+}
+
+.slick-slide {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.content-prerequisites-inner-title {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  /* 2 */
+  color: #132043;
+  margin: 44px 0;
+}
+.content-prerequisites-inner-list-card {
+  max-height: 380px;
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+  /* 2 */
+  color: #132043;
+  background: #f7f9ff;
+  /* 2 */
+  box-shadow: 0px 2px 0px #988155;
+  border-radius: 12px;
+  padding: 16px;
+  margin: 10px 5px;
+  transition: 0.3s ease;
+}
+.content-prerequisites-inner-text {
+  display: none;
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+  /* 2 */
+  color: #132043;
+}
+
+.content-univer {
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 64px;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+.content-univer-title {
+  padding: 15px 0;
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 37px;
+  /* 2 */
+  color: #132043;
+}
+.content-univer-mission {
+  padding-bottom: 15px;
+}
+.content-univer-mission-img {
+  padding: 10px 0 24px 0;
+}
+.content-univer-mission-img img {
+  width: 100%;
+  height: 270px;
+  border-radius: 8px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.content-univer-mission-text {
+  padding-top: 15px;
+}
+.content-univer-mission-text-title {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+  /* 2 */
+  color: #132043;
+  padding-bottom: 16px;
+}
+.content-univer-mission-text-inner {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+  /* 2 */
+  color: #132043;
+}
+
+.content-basic {
+  background: #f7f9ff;
+  padding: 64px 0;
+}
+.content-basic-inner-title {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  /* 2 */
+  color: #132043;
+  padding-bottom: 20px;
+}
+.content-basic-inner-list-item {
+  margin: 12px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 8px;
+}
+.content-basic-inner-list-item-img img {
+  border-radius: 8px;
+  height: 228px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.content-basic-inner-list-item-text {
+  padding: 16px;
+  width: 100%;
+}
+.content-basic-inner-list-item-text h4 {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  /* 2 */
+  color: #132043;
+  padding-bottom: 12px;
+}
+.content-basic-inner-list-item-text ul {
+  margin-left: 20px;
+}
+.content-basic-inner-list-item-text li {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  padding-bottom: 8px;
+  list-style: circle;
+  /* 2 */
+  color: #132043;
+}
+
+.content-tour {
+  position: relative;
+  max-height: 700px;
+  overflow: hidden;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.content-tour-inner {
+  margin: 0 auto;
+}
+.content-tour-inner-video {
+  margin-bottom: 10px;
+  position: relative;
+}
+.content-tour-inner-video iframe {
+  width: 100%;
+  height: 300px;
+}
+.content-tour-inner-video video {
+  width: 100%;
+  max-height: 100%;
+  border-radius: 8px;
+}
+.content-tour-inner-play {
+  position: absolute;
+  left: 0;
+  top: 0;
+  /* margin-left: -200px; */
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.452)), url("/img/new/ob-univere-video-backg.png");
+  background-size: cover;
+  background-position: 50% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 132%;
+  border-radius: 5px;
+  /* or 18px */
+  text-align: center;
+  color: #ffffff;
+}
+.content-tour-inner-play img {
+  width: 62px;
+  height: 60.45px;
+}
+.content-tour-inner-item {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.content-tour-inner-item img {
+  width: 60.84px;
+  height: 38.6px;
+  border-radius: 3px;
+}
+
+.content-structure {
+  padding: 67px 0;
+}
+.content-structure-inner {
+  text-align: center;
+}
+.content-structure-inner-item-decs {
+  display: none;
+}
+.content-structure-inner-item-mob h4 {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  /* or 48px */
+  text-align: center;
+  color: #132043;
+  margin: 32px 0;
+}
+.content-structure-inner-item-mob button {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 135%;
+  /* or 22px */
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #988155;
+  /* 1 */
+  border: 1px solid #988155;
+  border-radius: 12px;
+  padding: 12px 30px;
+}
+.content-structure-inner-item-mob button :hover {
+  background: #c6a058;
+}
+
+.content-documents-inner-title {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  /* identical to box height, or 48px */
+  margin: 32px 0;
+  /* 2 */
+  color: #132043;
+}
+.content-documents-inner-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.content-documents-inner-list-item-prev {
+  padding-right: 32px;
+  display: flex;
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  /* 2 */
+  color: #132043;
+}
+.content-documents-inner-list-item-prev img {
+  margin-right: 12px;
+  width: 30px;
+  height: 26.34px;
+}
+
+@media (min-width: 992px) {
+  .content-about-inner {
+    height: 400px;
+  }
+  .content-about-inner-title h1 {
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 83px;
+  }
+  .content-prerequisites {
+    padding: 70px;
+  }
+  .content-prerequisites-inner-title {
+    margin-right: 50%;
+  }
+  .content-prerequisites-inner-title h4 {
+    font-size: 48px;
+    line-height: 55px;
+  }
+  .content-prerequisites-inner-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .content-prerequisites-inner-list-card {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 50px;
+    margin-right: 18px;
+    flex-basis: 23%;
+  }
+  .content-prerequisites-inner-list-card p {
+    font-size: 18px;
+    line-height: 150%;
+  }
+  .content-prerequisites-inner-text {
+    display: block;
+  }
+  .content-prerequisites-inner-list-card:nth-child(4) {
+    margin-right: 0;
+  }
+  .container {
+    padding: 0;
+  }
+  .content-univer {
+    padding: 0;
+    padding-bottom: 60px;
+  }
+  .content-univer-title {
+    padding-bottom: 20px;
+  }
+  .content-univer-title h4 {
+    font-size: 48px;
+    line-height: 55px;
+    width: 48%;
+  }
+  .content-univer-mission {
+    display: flex;
+  }
+  .content-univer-mission-img {
+    flex-basis: 50%;
+  }
+  .content-univer-mission-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 8px 8px 0;
+  }
+  .content-univer-mission-text {
+    flex-basis: 35%;
+    padding: 0 0px 80px 100px;
+  }
+  .content-univer-mission-text-title {
+    padding: 30px 0;
+  }
+  .content-univer-mission-text-title h4 {
+    font-size: 32px;
+    line-height: 37px;
+  }
+  .content-univer-mission-text-inner p {
+    width: 77%;
+    font-size: 18px;
+    line-height: 150%;
+  }
+  .content-univer-mission-block {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .content-univer-mission:nth-child(3) {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .content-univer-mission:nth-child(3) img {
+    border-radius: 8px 0 0 8px;
+  }
+  .content-basic {
+    padding: 60px 0;
+  }
+  .content-basic-inner-title {
+    padding-right: 46%;
+    font-size: 48px;
+    line-height: 55px;
+  }
+  .content-basic-inner-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  .content-basic-inner-list-item {
+    flex-basis: 45%;
+    margin-right: 40px;
+  }
+  .content-basic-inner-list-item-img {
+    width: 100%;
+  }
+  .content-basic-inner-list-item img {
+    width: 100%;
+    height: 278px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .content-basic-inner-list-item-text {
+    padding: 37px;
+  }
+  .content-tour {
+    position: relative;
+    margin-bottom: 100px;
+  }
+  .content-tour-inner-video iframe {
+    width: 100%;
+    height: 700px;
+  }
+  .content-tour-inner-play {
+    left: 0;
+    top: 0;
+    /* margin-left: -200px; */
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.552), rgba(0, 0, 0, 0.552)), url("/img/new/ob-univere-video-backg.png");
+    background-size: cover;
+    background-position: 50% 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .content-tour-inner-play p {
+    margin-top: 25px;
+    font-size: 32px;
+    line-height: 132%;
+  }
+  .content-tour-inner-item {
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    margin-left: -260px;
+    margin-top: 0;
+  }
+  .content-tour-inner-item img {
+    margin-left: 12px;
+    width: 100px;
+    height: 66px;
+  }
+  .content-structure-inner-item-mob {
+    display: none;
+  }
+  .content-structure-inner-item-decs {
+    display: block;
+  }
+  .content-structure-inner-title {
+    font-family: "Arimo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 150%;
+    /* identical to box height, or 72px */
+    text-align: center;
+    color: #132043;
+    padding-bottom: 40px;
+  }
+  .content-documents-inner-title {
+    font-family: "Arimo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 150%;
+    /* identical to box height, or 72px */
+    /* 2 */
+    color: #132043;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 40px;
+  }
+  .content-documents-inner-list-item {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 0 30px 40px 30px;
+    border-bottom: 1px solid #dddddd;
+  }
+  .content-documents-inner-list-item-prev {
+    display: flex;
+    align-items: center;
+  }
+  .content-documents-inner-list-item-prev img {
+    width: 50px;
+    height: 45px;
+  }
+  .content-documents-inner-list-item-prev p {
+    margin-left: 30px;
+    font-family: "Arimo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height */
+    /* 2 */
+    color: #132043;
+  }
+  .content-documents-inner-list-item-down img {
+    width: 56px;
+    height: 56px;
+  }
+  .content-prerequisites-inner-list-card:hover {
+    box-shadow: 4px 4px 8px 4px #988155;
+  }
+}/*# sourceMappingURL=idea.css.map */
